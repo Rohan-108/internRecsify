@@ -1,0 +1,77 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  height: 100%;
+  width: 100%;
+
+  .hometext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.spantext {
+  color: green;
+}
+.surround {
+  border: 1px solid #1616d6;
+  height: 100%;
+  border-radius: 3.5%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading {
+  display: flex;
+  gap: 1rem;
+}
+.hoverText {
+  position: absolute;
+  top: -0.8rem;
+  display: block;
+  background: blue;
+  color: white;
+  border-radius: 20%;
+  padding: 0.1rem;
+  text-align: center;
+  font-size: 0.6rem;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.cardGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.commentContainer {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .price {
+    flex-direction: column;
+  }
+}

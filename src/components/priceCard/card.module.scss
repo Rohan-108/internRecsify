@@ -1,0 +1,23 @@
+.listItem {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  width: 100%;
+}
+.listBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.freeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 0.5rem;
+}
